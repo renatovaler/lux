@@ -15,8 +15,8 @@ class LuxServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->singleton('lux', function() {
-            return new Lux();
+        $this->app->singleton('lux', function($app) {
+            return new Lux($app);
         });
 		$this->providers();
 		$this->repositories();

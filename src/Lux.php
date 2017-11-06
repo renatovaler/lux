@@ -4,5 +4,9 @@ namespace RenatoValer\Lux;
 
 class Lux
 {
-    public function __construct() {}
+    public $app;
+
+    public function __construct($app) {
+        $this->app = $app;
+    }
 }

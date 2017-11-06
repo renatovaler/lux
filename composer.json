@@ -19,7 +19,7 @@
     },
     "require": {
         "php": ">=7.0.0",
-		"laravel/framework": "5.4.*",
+        "laravel/framework": "5.*",
         "prettus/l5-repository": "^2.6"
 	},
 	"extra": {
