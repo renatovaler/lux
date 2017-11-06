@@ -1,0 +1,18 @@
+{
+    "name": "renatovaler/lux",
+    "description": "Lux",
+    "license": "MIT",
+	"minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Renato Valer",
+            "email": "renato.valer@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RenatoValer\\Lux\\": "src/"
+        }
+    },
+    "require": {}
+}
