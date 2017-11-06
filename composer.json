@@ -12,11 +12,23 @@
     "autoload": {
         "psr-4": {
             "RenatoValer\\Lux\\": "src/"
-        }
+        },
+        "files": [
+			"src/Support/Helpers.php"
+		]
     },
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+		"laravel/framework": "5.4.*",
+        "prettus/l5-repository": "^2.6"
 	},
+	"extra": {
+        "laravel": {
+          "providers": [
+            "RenatoValer\\Lux\\LuxServiceProvider"
+          ]
+        }
+    },
 	"minimum-stability": "dev",
     "prefer-stable": true
 }
